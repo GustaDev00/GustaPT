@@ -89,7 +89,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/altogiro.jpg",
+            src: "./images/works/altogiro.png",
             alt: "Alto Giro",
           },
           technology: ["React", "Jest", "scss", "vtex io"],
@@ -102,7 +102,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/ene2ese.jpg",
+            src: "./images/works/ene2ese.png",
             alt: "Ene2ese",
           },
           technology: ["Vanilla JS", "Gulp", "scss", "vtex"],
@@ -115,7 +115,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/pantaspaladar.jpg",
+            src: "./images/works/pantaspaladar.png",
             alt: "Pantas Paladar",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -128,7 +128,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/farmrio.jpg",
+            src: "./images/works/farmrio.png",
             alt: "Farm Rio",
           },
           technology: ["react", "styled componentes", "Gulp", "scss", "vtex io"],
@@ -141,7 +141,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/bateriasgalileu.jpg",
+            src: "./images/works/bateriasgalileu.png",
             alt: "Baterias Galileu",
           },
           technology: ["next", "styled componentes", "react"],
@@ -154,7 +154,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/jeansclub.jpg",
+            src: "./images/works/jeansclub.png",
             alt: "Jeans Club",
           },
           technology: ["React", "Jest", "scss", "vtex io"],
@@ -167,7 +167,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/libercomunicacaovisual.jpg",
+            src: "./images/works/libercomunicacaovisual.png",
             alt: "Liber Comunicação Visual",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -179,7 +179,7 @@ export default {
             title: "bubowl",
           },
           img: {
-            src: "./images/works/bubowl.jpg",
+            src: "./images/works/bubowl.png",
             alt: "bubowl",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -192,7 +192,7 @@ export default {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/shopdoscabelos.jpg",
+            src: "./images/works/shopdoscabelos.png",
             alt: "Shop dos cabelos",
           },
           technology: ["React", "scss", "vtex io"],
