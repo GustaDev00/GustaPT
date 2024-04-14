@@ -1,3 +1,5 @@
+import HomeTemplate from "@/templates/home";
+
 export default function Home() {
-  return <h1>Ola mundo</h1>;
+  return <HomeTemplate />;
 }
