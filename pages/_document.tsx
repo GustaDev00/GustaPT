@@ -6,7 +6,6 @@ function MyDocument({ styles }: { styles: JSX.Element[] }) {
   return (
     <Html lang="pt-br">
       <Head>
-        <title>Gusta.pt | Portifolio, serviços e projetos</title>
         <meta
           name="description"
           content="Descubra meus serviços e projetos que eu ja tive a honra de realizar e fazer parte. Alguns dos serviços mais populres são: ecommerce, web site e seo. Para ecommerce eu mexo muito com vtex, mas também conheço outras!"

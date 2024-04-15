@@ -1,5 +1,13 @@
 import HomeTemplate from "@/templates/Home";
+import Head from "next/head";
 
 export default function Home() {
-  return <HomeTemplate />;
+  return (
+    <>
+      <Head>
+        <title>Gusta.pt | Portifolio, serviços e projetos</title>
+      </Head>
+      <HomeTemplate />
+    </>
+  );
 }

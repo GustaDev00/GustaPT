@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
-export default () => {
+const useAnimation = () => {
   const textRef = useRef<(HTMLParagraphElement | null)[]>([]);
 
   useEffect(() => {
@@ -23,3 +23,5 @@ export default () => {
     textRef,
   };
 };
+
+export default useAnimation;

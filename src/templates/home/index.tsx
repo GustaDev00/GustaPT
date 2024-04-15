@@ -1,7 +1,7 @@
-import ContactTemplate from "../Contact";
-import IntroTemplate from "../Intro";
-import ServicesTemplate from "../Services";
-import WorksTemplate from "../Works";
+import ContactTemplate from "@/templates/Contact";
+import IntroTemplate from "@/templates/Intro";
+import ServicesTemplate from "@/templates/Services";
+import WorksTemplate from "@/templates/Works";
 
 const HomeTemplate = () => {
   return (
