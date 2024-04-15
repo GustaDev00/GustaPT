@@ -1,7 +1,7 @@
 import HomeTemplate from "../src/templates/Home";
 import Head from "next/head";
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <Head>
@@ -10,4 +10,6 @@ export default function Home() {
       <HomeTemplate />
     </>
   );
-}
+};
+
+export default Home;
