@@ -1,5 +1,5 @@
-import HomeTemplate from "@/templates/Home";
 import Head from "next/head";
+import HomeTemplate from "@/templates/Home";
 
 const Home = () => {
   return (
