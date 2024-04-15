@@ -1,4 +1,4 @@
-import HomeTemplate from "@/templates/Home";
+import HomeTemplate from "../src/templates/Home";
 import Head from "next/head";
 
 export default function Home() {
