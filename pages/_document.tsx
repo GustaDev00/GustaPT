@@ -4,9 +4,26 @@ import { ServerStyleSheet } from "styled-components";
 
 function MyDocument({ styles }: { styles: JSX.Element[] }) {
   return (
-    <Html lang="en">
+    <Html lang="pt-br">
       <Head>
+        <title>Gusta.pt | Portifolio, serviços e projetos</title>
+        <meta
+          name="description"
+          content="Descubra meus serviços e projetos que eu ja tive a honra de realizar e fazer parte. Alguns dos serviços mais populres são: ecommerce, web site e seo. Para ecommerce eu mexo muito com vtex, mas também conheço outras!"
+        />
+        <meta property="og:url" content={`${process.env.NEXT_PUBLIC_URL}/`} />
+        <meta property="og:title" content="Gusta.pt | Portifolio, serviços e projetos" />
+        <meta
+          property="og:description"
+          content="Descubra meus serviços e projetos que eu ja tive a honra de realizar e fazer parte. Alguns dos serviços mais populres são: ecommerce, web site e seo. Para ecommerce eu mexo muito com vtex, mas também conheço outras!"
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={`${process.env.NEXT_PUBLIC_URL}/favicon.ico`} />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Gustavo Felipe da Silva Pontes" />
         <meta name="theme-color" content="#2D2F39" />
+        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_URL}/`} />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_URL}/favicon.ico`} sizes="any" />
       </Head>
       <body>
         <Main />
