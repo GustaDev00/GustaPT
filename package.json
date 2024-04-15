@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "gsap": "^3.12.5",
-    "next": "14.2.0",
+    "next": "latest",
     "next-pwa": "^5.6.0",
     "react": "^18",
     "react-dom": "^18",
@@ -26,7 +26,7 @@
     "@types/react-dom": "^18",
     "dotenv": "^16.4.5",
     "eslint": "^8",
-    "eslint-config-next": "14.2.0",
+    "eslint-config-next": "latest",
     "fs": "^0.0.1-security",
     "glob": "^10.3.12",
     "sitemap": "^7.1.1",
