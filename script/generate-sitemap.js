@@ -17,7 +17,7 @@ const { SitemapStream, streamToPromise } = require("sitemap");
     const pages = glob.sync("pages/**/*.tsx", { ignore: ["pages/_*.tsx", "pages/api"] });
 
     const sitemapStream = new SitemapStream({
-      hostname: baseUrl.trim(), // Use trim apenas se você tem certeza de que baseUrl não é undefined
+      hostname: baseUrl.trim(),
     });
 
     pages.forEach((page) => {
@@ -28,6 +28,8 @@ const { SitemapStream, streamToPromise } = require("sitemap");
 
       sitemapStream.write({ url: path });
     });
+
+    sitemapStream.write({ url: "http://links.gusta.pt" });
 
     sitemapStream.end();
 
