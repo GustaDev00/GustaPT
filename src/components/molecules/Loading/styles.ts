@@ -39,6 +39,7 @@ export const Text = styled.p`
   color: ${({ theme }) => theme.color.cultured};
   text-transform: uppercase;
   display: none;
+  opacity: 0;
 
   @media (max-width: 600px) {
     font-size: ${({ theme }) => theme.size.size3rem};
@@ -46,6 +47,7 @@ export const Text = styled.p`
 
   &:first-child {
     display: block;
+    opacity: 1;
   }
 
   &:last-child {

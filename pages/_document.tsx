@@ -5,7 +5,9 @@ import { ServerStyleSheet } from "styled-components";
 function MyDocument({ styles }: { styles: JSX.Element[] }) {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <meta name="theme-color" content="#2D2F39" />
+      </Head>
       <body>
         <Main />
         <NextScript />
