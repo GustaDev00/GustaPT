@@ -32,6 +32,32 @@ export const theme = {
     weight500: 500,
     weight400: 400,
   },
+  viewport: {
+    mobile: {
+      width: "599px",
+    },
+    tablet: {
+      width: "768px",
+    },
+    desktop1024: {
+      width: "1024px",
+    },
+    desktop1280: {
+      width: "1280px",
+    },
+    desktop1440: {
+      width: "1440px",
+      height: "900px",
+    },
+    desktop1920: {
+      width: "1920px",
+      height: "1080px",
+    },
+    desktop2560: {
+      width: "2560px",
+      height: "1440px",
+    },
+  },
 };
 
 export type ColorFamily = typeof theme;

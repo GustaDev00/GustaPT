@@ -1,4 +1,10 @@
-export default {
+type AvailableLanguages = "pt" | "en";
+
+type Content = {
+  [K in AvailableLanguages]?: Record<string, any>;
+};
+
+const content: Content = {
   pt: {},
   en: {
     logo: { src: "./svgs/logo.svg", alt: "Gustavo Pontes logo", windth: 22, height: 19 },
@@ -17,6 +23,9 @@ export default {
         { name: "EN", link: "/" },
         { name: "PT", link: "/pt" },
       ],
+    },
+    loading: {
+      text: "Gustavo Pontes",
     },
     intro: {
       title: "HEY! GUSTAVO PONTES HERE",
@@ -250,3 +259,5 @@ export default {
     },
   },
 };
+
+export default content;

@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "atoms": "node ./script/folder.js atoms",
+    "molecules": "node ./script/folder.js molecules",
+    "organisms": "node ./script/folder.js organisms",
     "sitemap": "node ./script/generate-sitemap.js",
     "build": "yarn sitemap && next build",
     "start": "next start",
