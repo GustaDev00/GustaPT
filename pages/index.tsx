@@ -1,4 +1,4 @@
-import HomeTemplate from "../src/templates/Home";
+import HomeTemplate from "@/templates/Home";
 import Head from "next/head";
 
 const Home = () => {
