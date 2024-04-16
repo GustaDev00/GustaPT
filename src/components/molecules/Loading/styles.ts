@@ -79,4 +79,9 @@ export const Squares = styled.div`
   height: 100px;
   background-color: ${({ theme }) => theme.color.cultured};
   opacity: 0;
+
+  @media (max-width: 600px) {
+    width: 50px;
+    height: 50px;
+  }
 `;
