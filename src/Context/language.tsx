@@ -12,6 +12,7 @@ import Content from "@/global/content";
 interface LanguageContextType {
   setType: Dispatch<SetStateAction<"en" | "pt">>;
   content: any;
+  countLetter: number;
 }
 
 const LanguageContext = createContext<LanguageContextType | null>(null);
@@ -23,9 +24,13 @@ interface LanguageProviderProps {
 export const LanguageProvider = ({ children }: LanguageProviderProps) => {
   const [type, setType] = useState<"en" | "pt">("en");
   const [content, setContent] = useState(Content["en"]);
+  const [countLetter, setCountLetter] = useState(Content["en"]?.loading?.text?.length ?? 0);
 
   useEffect(() => {
     setContent(Content[type]);
+    if (Content[type]?.loading?.text) {
+      setCountLetter(Content[type]?.loading?.text.length ?? 0);
+    }
   }, [type]);
 
   return (
@@ -33,6 +38,7 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
       value={{
         setType,
         content,
+        countLetter,
       }}
     >
       {children}
