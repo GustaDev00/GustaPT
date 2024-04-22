@@ -9,7 +9,7 @@ import WorksTemplate from "@/templates/Works";
 const HomeTemplate = () => {
   return (
     <Section>
-      {/* <Loading /> */}
+      <Loading />
       <Header>
         <IntroTemplate />
         <ServicesTemplate />

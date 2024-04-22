@@ -22,14 +22,14 @@ const useAnimation = () => {
               .then(() => {
                 gsap.to(square, {
                   opacity: 0,
-                  delay: 1,
+                  delay: 0.1,
                   duration: 0.01,
                 });
               })
               .finally(() => {
                 gsap.to(containerRef.current, {
                   display: "none",
-                  delay: 2,
+                  delay: 1,
                   duration: 0.1,
                 });
               });

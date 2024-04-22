@@ -5,6 +5,7 @@ export const Loading = styled.div`
   height: 100%;
   overflow: hidden;
   position: fixed;
+  z-index: 10;
 `;
 
 export const blinkAnimation = keyframes`
