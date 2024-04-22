@@ -1,8 +1,6 @@
 import * as S from "./styles";
-import useAnimation from "./animation";
 
 const Background = () => {
-  // const { up, down, up2 } = useAnimation();
   return (
     <S.BackgroundContainer>
       <S.Col>
