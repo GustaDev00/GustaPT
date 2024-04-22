@@ -1,7 +1,7 @@
 import * as S from "./styles";
 import { useLanguageContext } from "@/Context/language";
-import useAnimation from "./animation";
-import Squares from "@/components/molecules/Loading/Squares";
+import useAnimation from "./teste";
+import Squares from "@/common/molecules/Loading/Squares";
 
 const Loading = () => {
   const { text } = useLanguageContext()?.content?.loading;

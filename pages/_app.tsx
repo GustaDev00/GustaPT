@@ -5,7 +5,7 @@ import { theme } from "@/styles/theme";
 import { LanguageProvider } from "@/Context/language";
 
 import "@/styles/reset.css";
-import GSAPInitializer from "@/components/atoms/GSAPInitializer";
+import GSAPInitializer from "@/common/atoms/GSAPInitializer";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

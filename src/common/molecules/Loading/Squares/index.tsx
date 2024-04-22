@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import useAnimation from "./animation";
+import useAnimation from "../teste";
 import * as S from "../styles";
 import useEffectResize from "@/utils/useEffectResize";
 

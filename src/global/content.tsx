@@ -7,21 +7,21 @@ type Content = {
 const content: Content = {
   pt: {},
   en: {
-    logo: { src: "./svgs/logo.svg", alt: "Gustavo Pontes logo", windth: 22, height: 19 },
+    logo: "g.",
     header: {
-      page: "Scroll view",
+      page: "scroll view",
       total: 4,
     },
     nav: {
       links: [
-        { name: "Home", link: "#home" },
-        { name: "SERVICES", link: "#services" },
-        { name: "WORKS", link: "#works" },
-        { name: "CONTACT", link: "#contact" },
+        { name: "Home", href: "#home" },
+        { name: "SERVICES", href: "#services" },
+        { name: "WORKS", href: "#works" },
+        { name: "CONTACT", href: "#contact" },
       ],
       language: [
-        { name: "EN", link: "/" },
-        { name: "PT", link: "/pt" },
+        { name: "EN", href: "/" },
+        { name: "PT", href: "/pt" },
       ],
     },
     loading: {
