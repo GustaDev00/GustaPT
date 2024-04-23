@@ -16,13 +16,13 @@ const Nav = () => {
         ))}
       </S.List>
 
-      <S.List>
+      <S.ListLg>
         {language.map((link: Link, index: number) => (
           <S.ItemLg key={index}>
             <S.Link {...link}>{link.name}</S.Link>
           </S.ItemLg>
         ))}
-      </S.List>
+      </S.ListLg>
     </S.NavContainer>
   );
 };

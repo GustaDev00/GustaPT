@@ -25,6 +25,8 @@ export const theme = {
     size2_5rem: "2.5rem",
     size2rem: "2rem",
     size1_8rem: "1.8rem",
+    size1_6rem: "1.6rem",
+    size1_4rem: "1.4rem",
     size1_2rem: "1.2rem",
   },
   weight: {

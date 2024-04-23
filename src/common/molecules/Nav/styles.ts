@@ -12,10 +12,19 @@ export const NavContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 2rem;
+
+  @media (max-width: 600px) {
+    gap: 1rem;
+    padding: 2rem 2rem;
+  }
 `;
 
 export const Logo = styled(_Logo)`
   font-size: ${({ theme }) => theme.size.size2_5rem};
+
+  @media (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const List = styled.ul`
@@ -24,11 +33,31 @@ export const List = styled.ul`
   font-size: ${({ theme }) => theme.size.size2_5rem};
   color: ${({ theme }) => theme.color.violetBlue};
   gap: 2rem;
+
+  @media (max-width: 600px) {
+    font-size: ${({ theme }) => theme.size.size1_4rem};
+  }
 `;
 
 export const Item = styled.li``;
 
-export const ItemLg = styled.li``;
+export const ListLg = styled.ul`
+  display: flex;
+  align-items: center;
+  font-size: ${({ theme }) => theme.size.size2_5rem};
+  color: ${({ theme }) => theme.color.violetBlue};
+
+  @media (max-width: 600px) {
+    font-size: ${({ theme }) => theme.size.size1_4rem};
+  }
+`;
+
+export const ItemLg = styled.li`
+  &:first-child::after {
+    content: "|";
+    margin: 0 0.5rem;
+  }
+`;
 
 export const Link = styled.a`
   text-transform: uppercase;
