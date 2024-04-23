@@ -1,16 +1,49 @@
 import * as S from "./styles";
 import { useLanguageContext } from "@/Context/language";
-import useAnimation from "./teste";
-import Squares from "@/common/molecules/Loading/Squares";
+import useAnimation from "./animation";
+import { useState } from "react";
+import useEffectResize from "@/utils/useEffectResize";
 
 const Loading = () => {
   const { text } = useLanguageContext()?.content?.loading;
-  const { textRef, loadingRef } = useAnimation();
+  const [numSquares, setNumSquares] = useState(0);
+  const { textRef, loadingRef, squaresRef, containerRef } = useAnimation();
 
   if (!text) return <></>;
 
+  const Squares = () => {
+    return (
+      <S.SquaresContainer>
+        {Array.from({ length: numSquares }, (_, i) => (
+          <S.Squares
+            key={i}
+            ref={(el: HTMLDivElement | null) => {
+              squaresRef.current[i] = el;
+            }}
+          />
+        ))}
+      </S.SquaresContainer>
+    );
+  };
+
+  useEffectResize(
+    () => {
+      const squareSize = window.innerWidth > 600 ? 100 : 50;
+
+      const width = window.innerWidth + 100;
+      const height = window.innerHeight;
+      const numSquaresWidth = Math.ceil(width / squareSize);
+      const numSquaresHeight = Math.ceil(height / squareSize);
+      const totalSquares = numSquaresWidth * numSquaresHeight;
+
+      setNumSquares(totalSquares);
+    },
+    [],
+    true,
+  );
+
   return (
-    <S.Loading>
+    <S.Loading ref={containerRef}>
       <Squares />
       <S.LoadingContainer ref={loadingRef}>
         <S.Content>

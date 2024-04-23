@@ -61,4 +61,8 @@ export const ItemLg = styled.li`
 
 export const Link = styled.a`
   text-transform: uppercase;
+
+  &:hover {
+    opacity: 0.8;
+  }
 `;
