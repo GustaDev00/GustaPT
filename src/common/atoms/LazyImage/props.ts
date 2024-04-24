@@ -1,7 +1,8 @@
-import { ImgHTMLAttributes } from 'react';
-import { ViewportBaseProps } from '@/utils/media-query/viewport-base';
+import { ViewportBaseProps } from "@/utils/viewport-base";
+import { ImgHTMLAttributes } from "react";
 
-export default interface LazyImageProps extends Omit<ImgHTMLAttributes<HTMLImageElement>, 'src' | 'alt'> {
+export default interface LazyImageProps
+  extends Omit<ImgHTMLAttributes<HTMLImageElement>, "src" | "alt"> {
   src: string;
   alt: string;
   notLazy?: boolean;

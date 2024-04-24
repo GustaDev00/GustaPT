@@ -60,7 +60,7 @@ const useAnimation = () => {
         });
       }
     }, countLetter * 110);
-  }, [textRef, loadingRef, squaresRef, containerRef]);
+  }, [textRef, loadingRef, squaresRef, containerRef, countLetter]);
 
   return {
     textRef,
