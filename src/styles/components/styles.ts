@@ -25,4 +25,5 @@ export const Example = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: ${({ theme }) => theme.color.gunmetal};
+  border-radius: 5rem;
 `;
