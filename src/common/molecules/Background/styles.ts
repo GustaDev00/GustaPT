@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const BackgroundContainer = styled.div`
-  margin: 7rem 0 0 7rem;
   display: flex;
   gap: 5.5rem;
   position: absolute;
   top: 0;
+  margin: 7rem 0 0 7rem;
 
   @media (max-width: 600px) {
     gap: 2rem;

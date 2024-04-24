@@ -11,6 +11,7 @@ export const Header = styled.header`
   padding: 2rem 3rem 0;
   justify-content: space-between;
   align-items: center;
+  z-index: 5;
 `;
 
 export const Logo = styled(_Logo)``;

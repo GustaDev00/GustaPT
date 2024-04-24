@@ -1,5 +1,7 @@
+import { Example } from "@/styles/components/styles";
+
 const WorksTemplate = () => {
-  return <></>;
+  return <Example />;
 };
 
 export default WorksTemplate;

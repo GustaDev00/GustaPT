@@ -1,5 +1,7 @@
+import { Example } from "@/styles/components/styles";
+
 const ServicesTemplate = () => {
-  return <></>;
+  return <Example />;
 };
 
 export default ServicesTemplate;
