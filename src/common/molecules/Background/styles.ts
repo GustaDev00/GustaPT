@@ -1,25 +1,5 @@
 import styled, { keyframes } from "styled-components";
 
-const Up = keyframes`
-  0% {
-    transform: translate3d(0, calc(-25% + 1rem), 0);
-  }
-
-  100% {
-    transform: translate3d(0, calc(-50% + 1rem), 0);
-  }
-`;
-
-const Down = keyframes`
-  0% {
-    transform: translate3d(0, calc(-50% + 1rem), 0);
-  }
-
-  100% {
-    transform: translate3d(0, calc(-25% + 1rem), 0);
-  }
-`;
-
 export const BackgroundContainer = styled.div`
   margin: 7rem 0 0 7rem;
   display: flex;
@@ -69,17 +49,11 @@ export const Col = styled.div`
 
   &:first-child,
   &:last-child {
-    animation: ${Up} 60s linear infinite;
-    animation-timing-function: linear;
-    animation-delay: 1s;
   }
   &:last-child {
-    animation-duration: 150s;
   }
 
   &:nth-child(2) {
-    animation: ${Down} 60s linear infinite;
-    animation-timing-function: linear;
-    animation-delay: 1s;
+    transform: translate3d(0, calc(-50%), 0);
   }
 `;

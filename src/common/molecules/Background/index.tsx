@@ -1,9 +1,11 @@
 import * as S from "./styles";
+import useAnimation from "./animation";
 
 const Background = () => {
+  const { up, down, upSlow } = useAnimation();
   return (
     <S.BackgroundContainer>
-      <S.Col>
+      <S.Col ref={up}>
         <S.Circle />
         <S.Rectangle />
         <S.Rectangle />
@@ -18,7 +20,7 @@ const Background = () => {
         <S.Rectangle />
       </S.Col>
 
-      <S.Col>
+      <S.Col ref={down}>
         <S.Circle />
         <S.Circle />
         <S.Rectangle />
@@ -33,7 +35,7 @@ const Background = () => {
         <S.Rectangle />
       </S.Col>
 
-      <S.Col>
+      <S.Col ref={upSlow}>
         <S.Rectangle />
         <S.Rectangle />
         <S.Rectangle />
