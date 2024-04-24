@@ -32,7 +32,7 @@ const content: Content = {
     intro: {
       title: (
         <>
-          HEY! GUSTAVO P<LazyImage src="/imgs/eu.png" alt="Gustavo Pontes" notLazy={true} />
+          HEY! GUSTAVO <br />P<LazyImage src="/imgs/eu.png" alt="Gustavo Pontes" notLazy={true} />
           NTES HERE
         </>
       ),
