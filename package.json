@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "atoms": "node ./script/folder.js atoms",
-    "convert-medias": "node ./convert-to-webp.js",
+    "convert-medias": "node ./script/convert-to-webp.js",
     "molecules": "node ./script/folder.js molecules",
     "organisms": "node ./script/folder.js organisms",
     "sitemap": "node ./script/generate-sitemap.js",
