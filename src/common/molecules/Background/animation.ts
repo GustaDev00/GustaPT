@@ -11,21 +11,21 @@ const useAnimation = () => {
 
     setTimeout(() => {
       gsap.to(up.current, {
-        y: "-75%",
+        y: "-50%",
         repeat: -1,
         duration: 140,
         ease: "none",
       });
 
       gsap.to(upSlow.current, {
-        y: "-75%",
+        y: "-50%",
         repeat: -1,
         duration: 180,
         ease: "none",
       });
 
       gsap.to(down.current, {
-        y: "75%",
+        y: "50%",
         repeat: -1,
         duration: 140,
         ease: "none",

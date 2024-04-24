@@ -1,21 +1,18 @@
-import Logo from "@/common/atoms/Logo";
-import * as S from "./styles";
 import { FC } from "react";
+import * as S from "./styles";
 import { HeaderProps } from "./props";
-import Nav from "@/common/molecules/Nav";
-import Scroll from "@/common/atoms/Scroll";
 
 const Header: FC<HeaderProps> = ({ children }) => {
   return (
     <>
       <S.Header>
-        <Logo />
-        <Scroll />
+        <S.Logo />
+        <S.Scroll />
       </S.Header>
 
-      <S.Main>{children}</S.Main>
+      <S.MainChildren>{children}</S.MainChildren>
 
-      <Nav />
+      <S.Nav />
     </>
   );
 };

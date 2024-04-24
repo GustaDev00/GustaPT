@@ -1,4 +1,8 @@
 import styled from "styled-components";
+import _Logo from "@/common/atoms/Logo";
+import _Nav from "@/common/molecules/Nav";
+import _Scroll from "@/common/atoms/Scroll";
+import { Main } from "@/styles/components/styles";
 
 export const Header = styled.header`
   width: 100%;
@@ -9,4 +13,10 @@ export const Header = styled.header`
   align-items: center;
 `;
 
-export const Main = styled.main``;
+export const Logo = styled(_Logo)``;
+
+export const Scroll = styled(_Scroll)``;
+
+export const Nav = styled(_Nav)``;
+
+export const MainChildren = styled(Main)``;

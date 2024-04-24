@@ -1,21 +1,27 @@
 import styled from "styled-components";
 
 export const TitleLogoContainer = styled.div`
-  position: absolute;
-  right: 4rem;
-  bottom: 30%;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+`;
+
+export const Article = styled.article`
+  padding-bottom: 30rem;
   width: 61%;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1280px) {
+    padding-bottom: 20rem;
   }
 
   @media (max-width: 600px) {
+    padding-bottom: 40%;
     width: 80%;
     right: 0.5rem;
   }
 `;
-
-export const Article = styled.article``;
 
 export const Title = styled.h1`
   font-size: ${({ theme }) => theme.size.size10rem};
@@ -29,7 +35,7 @@ export const Title = styled.h1`
     display: none;
   }
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1280px) {
     font-size: ${({ theme }) => theme.size.size8rem};
 
     img {
@@ -56,7 +62,7 @@ export const Description = styled.p`
   font-size: ${({ theme }) => theme.size.size4rem};
   font-weight: 400;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1280px) {
     font-size: ${({ theme }) => theme.size.size3rem};
   }
 
