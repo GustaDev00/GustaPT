@@ -24,6 +24,11 @@ export const BackgroundContainer = styled.div`
   margin: 7rem 0 0 7rem;
   display: flex;
   gap: 5.5rem;
+
+  @media (max-width: 600px) {
+    gap: 2rem;
+    margin: 7rem 0 0 -4rem;
+  }
 `;
 
 export const Circle = styled.div`
@@ -32,10 +37,28 @@ export const Circle = styled.div`
   width: 40rem;
   height: 40rem;
   border-radius: 50rem;
+
+  @media (max-width: 1280px) {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  @media (max-width: 600px) {
+    width: 15rem;
+    height: 15rem;
+  }
 `;
 
 export const Rectangle = styled(Circle)`
   height: 80rem;
+
+  @media (max-width: 1280px) {
+    height: 40rem;
+  }
+
+  @media (max-width: 600px) {
+    height: 30rem;
+  }
 `;
 
 export const Col = styled.div`

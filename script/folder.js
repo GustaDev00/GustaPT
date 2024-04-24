@@ -5,7 +5,7 @@ const path = require("path");
 const [, , baseFolder, newFolder] = process.argv;
 
 // Define o caminho base padrão
-const basePath = "./src/components";
+const basePath = "./src/common";
 
 // Caminho completo da nova pasta
 const fullPath = path.join(basePath, baseFolder, newFolder);

@@ -1,5 +1,5 @@
 import * as S from "./styles";
-import { useLanguageContext } from "@/Context/language";
+import { useLanguageContext } from "@/context/language";
 import useAnimation from "./animation";
 import { useState } from "react";
 import useEffectResize from "@/utils/useEffectResize";

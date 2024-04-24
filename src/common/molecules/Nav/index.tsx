@@ -1,4 +1,4 @@
-import { useLanguageContext } from "@/Context/language";
+import { useLanguageContext } from "@/context/language";
 import * as S from "./styles";
 import { Link } from "./props";
 

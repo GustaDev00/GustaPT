@@ -1,3 +1,5 @@
+import LazyImage from "@/common/atoms/LazyImage";
+
 type AvailableLanguages = "pt" | "en";
 
 type Content = {
@@ -28,7 +30,12 @@ const content: Content = {
       text: "Gustavo Pontes",
     },
     intro: {
-      title: "HEY! GUSTAVO PONTES HERE",
+      title: (
+        <>
+          HEY! GUSTAVO P<LazyImage src="/imgs/eu.png" alt="Gustavo Pontes" notLazy={true} />
+          NTES HERE
+        </>
+      ),
       description: (
         <>
           Front-End Developer passionate about making the web more beautiful and accessible. Focused

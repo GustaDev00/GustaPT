@@ -1,6 +1,6 @@
 import { use } from "react";
 import * as S from "./styles";
-import { useLanguageContext } from "@/Context/language";
+import { useLanguageContext } from "@/context/language";
 
 const Scroll = () => {
   const { page, total } = useLanguageContext()?.content?.header;

@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
-import { useLanguageContext } from "@/Context/language";
+import { useLanguageContext } from "@/context/language";
 
 const useAnimation = () => {
   const textRef = useRef<(HTMLParagraphElement | null)[]>([]);
