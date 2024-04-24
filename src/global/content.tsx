@@ -16,14 +16,14 @@ const content: Content = {
     },
     nav: {
       links: [
-        { name: "Home", title: "Home", href: "#home" },
-        { name: "SERVICES", title: "SERVICES", href: "#services" },
-        { name: "WORKS", title: "WORKS", href: "#works" },
-        { name: "CONTACT", title: "CONTACT", href: "#contact" },
+        { title: "Home", href: "#home" },
+        { title: "SERVICES", href: "#services" },
+        { title: "WORKS", href: "#works" },
+        { title: "CONTACT", href: "#contact" },
       ],
       language: [
-        { name: "EN", title: "EN", href: "/" },
-        { name: "PT", title: "PT", href: "/pt" },
+        { title: "EN", href: "/" },
+        { title: "PT", href: "/pt" },
       ],
     },
     loading: {

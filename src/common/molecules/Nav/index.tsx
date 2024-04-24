@@ -11,7 +11,7 @@ const Nav = () => {
       <S.List>
         {links.map((link: Link, index: number) => (
           <S.Item key={index}>
-            <S.Link {...link}>{link.name}</S.Link>
+            <S.Link {...link}>{link.title}</S.Link>
           </S.Item>
         ))}
       </S.List>
@@ -19,7 +19,7 @@ const Nav = () => {
       <S.ListLg>
         {language.map((link: Link, index: number) => (
           <S.ItemLg key={index}>
-            <S.Link {...link}>{link.name}</S.Link>
+            <S.Link {...link}>{link.title}</S.Link>
           </S.ItemLg>
         ))}
       </S.ListLg>
