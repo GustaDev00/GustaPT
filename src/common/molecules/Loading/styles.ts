@@ -48,6 +48,7 @@ export const Text = styled.p`
   text-transform: uppercase;
   display: none;
   opacity: 0;
+  mix-blend-mode: multiply;
 
   @media (max-width: 600px) {
     font-size: ${({ theme }) => theme.size.size3rem};

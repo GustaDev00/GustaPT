@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
-export const Section = styled.section`
+export const Section = styled.section<{ className?: string }>`
   height: 100%;
+  position: relative;
 `;
 
 export const Float = styled.div`
@@ -15,6 +16,12 @@ export const Float = styled.div`
 export const Over = styled.div`
   position: relative;
   top: 100vh;
+  background-color: ${({ theme }) => theme.color.gunmetal};
+  border-radius: 5rem;
+
+  @media (max-width: 600px) {
+    border-radius: 3rem;
+  }
 `;
 
 export const Main = styled.main`
@@ -24,6 +31,4 @@ export const Main = styled.main`
 export const Example = styled.div`
   width: 100vw;
   height: 100vh;
-  background-color: ${({ theme }) => theme.color.gunmetal};
-  border-radius: 5rem;
 `;

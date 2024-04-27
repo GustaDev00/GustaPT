@@ -10,9 +10,9 @@ import GSAPInitializer from "@/common/atoms/GSAPInitializer";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
+      <GSAPInitializer />
       <LanguageProvider>
         <ThemeProvider theme={theme}>
-          <GSAPInitializer />
           <Component {...pageProps} />
         </ThemeProvider>
       </LanguageProvider>

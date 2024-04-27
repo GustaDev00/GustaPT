@@ -67,10 +67,6 @@ body {
   }
 }
 
-::-webkit-scrollbar {
-  width: 5px;
-}
-
 html,
 body,
 #__next {

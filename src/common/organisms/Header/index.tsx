@@ -2,17 +2,17 @@ import { FC } from "react";
 import * as S from "./styles";
 import { HeaderProps } from "./props";
 
-const Header: FC<HeaderProps> = ({ children }) => {
+const Header: FC<HeaderProps> = ({ children, navRef, scrollRef, headerRef }) => {
   return (
     <>
-      <S.Header>
+      <S.Header ref={headerRef}>
         <S.Logo />
-        <S.Scroll />
+        <S.Scroll scrollRef={scrollRef} />
       </S.Header>
 
       <S.MainChildren>{children}</S.MainChildren>
 
-      <S.Nav />
+      <S.Nav navRef={navRef} />
     </>
   );
 };

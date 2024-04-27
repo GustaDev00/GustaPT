@@ -12,11 +12,16 @@ export const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   z-index: 5;
+  color: ${({ theme }) => theme.color.violetBlue};
 `;
 
-export const Logo = styled(_Logo)``;
+export const Logo = styled(_Logo)`
+  color: inherit;
+`;
 
-export const Scroll = styled(_Scroll)``;
+export const Scroll = styled(_Scroll)`
+  color: inherit;
+`;
 
 export const Nav = styled(_Nav)``;
 

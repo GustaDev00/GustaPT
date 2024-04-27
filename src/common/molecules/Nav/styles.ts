@@ -1,17 +1,19 @@
 import styled from "styled-components";
 import _Logo from "@/common/atoms/Logo";
+import { RefObject } from "react";
 
-export const NavContainer = styled.div`
+export const NavContainer = styled.div<{ ref?: RefObject<HTMLDivElement> | null }>`
   position: fixed;
   bottom: 3rem;
   left: 50%;
   transform: translateX(-50%);
-  border: 0.2rem solid ${({ theme }) => theme.color.violetBlue};
+  border: 0.3rem solid ${({ theme }) => theme.color.violetBlue};
   padding: 2rem 4rem;
   border-radius: 10rem;
   display: flex;
   align-items: center;
   gap: 2rem;
+  color: ${({ theme }) => theme.color.violetBlue};
 
   @media (max-width: 600px) {
     gap: 1rem;
@@ -21,6 +23,7 @@ export const NavContainer = styled.div`
 
 export const Logo = styled(_Logo)`
   font-size: ${({ theme }) => theme.size.size2_5rem};
+  color: inherit;
 
   @media (max-width: 600px) {
     display: none;
@@ -31,7 +34,7 @@ export const List = styled.ul`
   display: flex;
   align-items: center;
   font-size: ${({ theme }) => theme.size.size2_5rem};
-  color: ${({ theme }) => theme.color.violetBlue};
+  color: inherit;
   gap: 2rem;
 
   @media (max-width: 600px) {
@@ -45,7 +48,7 @@ export const ListLg = styled.ul`
   display: flex;
   align-items: center;
   font-size: ${({ theme }) => theme.size.size2_5rem};
-  color: ${({ theme }) => theme.color.violetBlue};
+  color: inherit;
 
   @media (max-width: 600px) {
     font-size: ${({ theme }) => theme.size.size1_4rem};

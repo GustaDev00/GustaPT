@@ -1,12 +1,13 @@
 import { useLanguageContext } from "@/context/language";
 import * as S from "./styles";
-import { Link } from "./props";
+import { Link, NavProps } from "./props";
+import { FC } from "react";
 
-const Nav = () => {
+const Nav: FC<NavProps> = ({ navRef }) => {
   const { links, language } = useLanguageContext()?.content?.nav;
 
   return (
-    <S.NavContainer>
+    <S.NavContainer ref={navRef}>
       <S.Logo />
       <S.List>
         {links.map((link: Link, index: number) => (
