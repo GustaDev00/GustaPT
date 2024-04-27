@@ -13,6 +13,7 @@ export const Header = styled.header`
   align-items: center;
   z-index: 5;
   color: ${({ theme }) => theme.color.violetBlue};
+  transition: color 0.4s ease;
 `;
 
 export const Logo = styled(_Logo)`

@@ -17,7 +17,7 @@ const useAnimation = () => {
         gsap.to(scrollRef.current, {
           scrollTrigger: {
             trigger: section,
-            start: "top top",
+            start: "top top+=100px",
             end: "bottom bottom",
             onEnter: () => {
               gsap.to(scrollRef.current, {
@@ -25,8 +25,8 @@ const useAnimation = () => {
                 opacity: 0,
                 onComplete: () => {
                   if (scrollRef.current) {
-                    scrollRef.current.innerText = String(index + 1);
-                    gsap.fromTo(scrollRef.current, { y: 20, opacity: 0 }, { y: 0, opacity: 1 });
+                    scrollRef.current.innerText = String(index + 2);
+                    gsap.fromTo(scrollRef.current, { y: 10, opacity: 0 }, { y: 0, opacity: 1 });
                   }
                 },
               });
@@ -53,7 +53,7 @@ const useAnimation = () => {
         scrollTrigger: {
           trigger: sectionBlueRef.current,
           start: "top bottom-=90px",
-          end: "bottom bottom-=40px",
+          end: "bottom bottom-=20px",
           markers: false,
           toggleActions: "play reverse play reset",
         },

@@ -14,6 +14,7 @@ export const NavContainer = styled.div<{ ref?: RefObject<HTMLDivElement> | null 
   align-items: center;
   gap: 2rem;
   color: ${({ theme }) => theme.color.violetBlue};
+  transition: color 0.4s ease, border-color 0.4s ease;
 
   @media (max-width: 600px) {
     gap: 1rem;
