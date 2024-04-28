@@ -44,12 +44,17 @@ const content: Content = {
         </>
       ),
     },
-    servies: {
+    services: {
       title: (
         <>
-          My
+          <div>
+            My <span />
+          </div>
           <br />
-          services
+          <div>
+            <span />
+            Services
+          </div>
         </>
       ),
       showDescription: {
@@ -57,7 +62,7 @@ const content: Content = {
         second: "business",
         third: "your style",
       },
-      description: ["shop, web site", "result much better"],
+      description: [<>shop</>, <>web site</>, <>result</>],
       list: [
         {
           title: "E-commerce",

@@ -78,6 +78,10 @@ html {
   scroll-padding-top: 10rem;
 }
 
+::-webkit-scrollbar {
+  width: 0.1px;
+}
+
 li {
   list-style-type: none;
 }
