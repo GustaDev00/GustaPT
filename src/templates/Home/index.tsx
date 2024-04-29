@@ -17,9 +17,9 @@ const HomeTemplate = () => {
         <IntroTemplate />
         <Over ref={sectionBlueRef}>
           <ServicesTemplate className="section" />
+          <WorksTemplate className="section" />
+          <ContactTemplate />
         </Over>
-        <WorksTemplate />
-        <ContactTemplate />
       </Header>
     </Section>
   );

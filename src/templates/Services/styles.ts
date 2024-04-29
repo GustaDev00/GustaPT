@@ -1,32 +1,32 @@
-import TitleForms from "@/common/atoms/TitleForms";
 import styled from "styled-components";
 import ListServices from "@/common/molecules/ListServices";
 import { Section } from "@/styles/components/styles";
+import Titles from "@/common/molecules/Titles";
 
 export const Services = styled(Section)`
   background-color: ${({ theme }) => theme.color.gunmetal};
   border-radius: 6rem;
+  padding: 18rem 0 0 7rem;
 
   @media (max-width: 600px) {
     border-radius: 3rem;
+    padding: 8rem 0 0 5rem;
   }
 `;
 
 export const Article = styled.article`
-  padding: 18rem 0 0 7rem;
   display: flex;
   align-items: flex-end;
   gap: 2rem;
 
   @media (max-width: 600px) {
-    padding: 8rem 0 0 5rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 3rem;
   }
 `;
 
-export const Title = styled(TitleForms)`
+export const Title = styled(Titles)`
   div:first-child {
     span {
       margin-left: 1rem;
@@ -113,10 +113,10 @@ export const TextSecondary = styled.span``;
 export const TextTertiary = styled.p``;
 
 export const Service = styled.div`
-  padding: 20rem 0 0 7rem;
+  padding: 20rem 0 0 0;
 
   @media (max-width: 600px) {
-    padding: 0rem 0 0 5rem;
+    padding: 0;
   }
 `;
 

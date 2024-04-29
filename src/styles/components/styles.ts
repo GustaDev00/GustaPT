@@ -5,6 +5,15 @@ export const Section = styled.section<{ className?: string }>`
   position: relative;
 `;
 
+export const Wrapper = styled(Section)`
+  background-color: ${({ theme }) => theme.color.cultured};
+  padding: 8rem 7rem;
+
+  @media (max-width: 600px) {
+    padding: 4rem 5rem;
+  }
+`;
+
 export const Float = styled.div`
   position: fixed;
   width: 100%;

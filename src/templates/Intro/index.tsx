@@ -1,11 +1,11 @@
 import Background from "@/common/molecules/Background";
-import TitleLogo from "@/common/molecules/TitleLogo";
+import Titles from "@/common/molecules/Titles";
 import { Float } from "@/styles/components/styles";
 
 const IntroTemplate = () => {
   return (
     <Float>
-      <TitleLogo />
+      <Titles type="logo" />
       <Background />
     </Float>
   );

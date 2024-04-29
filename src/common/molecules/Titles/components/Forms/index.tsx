@@ -1,8 +1,8 @@
 import { FC } from "react";
+import { TitleProps } from "../../props";
 import * as S from "./styles";
-import { TitleFormsProps } from "./props";
 
-const TitleForms: FC<TitleFormsProps> = ({ children, className }) => {
+const TitleForms: FC<TitleProps> = ({ children, className }) => {
   return <S.TitleFormsContainer className={className}>{children}</S.TitleFormsContainer>;
 };
 

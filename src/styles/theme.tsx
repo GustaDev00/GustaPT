@@ -9,6 +9,7 @@ export const theme = {
     violetBlue: "#415DB8",
     royalBlue: "#4F72E3",
     cornflowerBlue: "#4F75ED",
+    majorelleBlue: "#5C4FE3",
     liberty: "#5C4FE3",
     white: "#FFFFFF",
     black: "#000000",

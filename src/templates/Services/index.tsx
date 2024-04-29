@@ -8,7 +8,7 @@ const ServicesTemplate: FC<{ className: string }> = ({ className }) => {
   return (
     <S.Services className={className}>
       <S.Article>
-        <S.Title>{services.title}</S.Title>
+        <S.Title type="forms">{services.title}</S.Title>
         <S.Description>
           <S.LineText>
             <S.TextFixed>{services.showDescription.first}</S.TextFixed>
