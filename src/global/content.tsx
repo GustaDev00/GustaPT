@@ -111,7 +111,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/altogiro.png",
+            src: "/imgs/works/altogiro.png",
             alt: "Alto Giro",
           },
           technology: ["React", "Jest", "scss", "vtex io"],
@@ -124,7 +124,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/ene2ese.png",
+            src: "/imgs/works/ene2ese.png",
             alt: "Ene2ese",
           },
           technology: ["Vanilla JS", "Gulp", "scss", "vtex"],
@@ -137,7 +137,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/pantaspaladar.png",
+            src: "/imgs/works/pantaspaladar.png",
             alt: "Pantas Paladar",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -150,7 +150,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/farmrio.png",
+            src: "/imgs/works/farmrio.png",
             alt: "Farm Rio",
           },
           technology: ["react", "styled componentes", "Gulp", "scss", "vtex io"],
@@ -163,7 +163,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/bateriasgalileu.png",
+            src: "/imgs/works/bateriasgalileu.png",
             alt: "Baterias Galileu",
           },
           technology: ["next", "styled componentes", "react"],
@@ -176,7 +176,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/jeansclub.png",
+            src: "/imgs/works/jeansclub.png",
             alt: "Jeans Club",
           },
           technology: ["React", "Jest", "scss", "vtex io"],
@@ -189,7 +189,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/libercomunicacaovisual.png",
+            src: "/imgs/works/libercomunicacaovisual.png",
             alt: "Liber Comunicação Visual",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -201,7 +201,7 @@ const content: Content = {
             title: "bubowl",
           },
           img: {
-            src: "./images/works/bubowl.png",
+            src: "/imgs/works/bubowl.png",
             alt: "bubowl",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -214,7 +214,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/shopdoscabelos.png",
+            src: "/imgs/works/shopdoscabelos.png",
             alt: "Shop dos cabelos",
           },
           technology: ["React", "scss", "vtex io"],
@@ -373,7 +373,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/altogiro.png",
+            src: "/imgs/works/altogiro.png",
             alt: "Alto Giro",
           },
           technology: ["React", "Jest", "scss", "vtex io"],
@@ -386,7 +386,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/ene2ese.png",
+            src: "/imgs/works/ene2ese.png",
             alt: "Ene2ese",
           },
           technology: ["Vanilla JS", "Gulp", "scss", "vtex"],
@@ -399,7 +399,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/pantaspaladar.png",
+            src: "/imgs/works/pantaspaladar.png",
             alt: "Pantas Paladar",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -412,7 +412,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/farmrio.png",
+            src: "/imgs/works/farmrio.png",
             alt: "Farm Rio",
           },
           technology: ["react", "styled componentes", "Gulp", "scss", "vtex io"],
@@ -425,7 +425,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/bateriasgalileu.png",
+            src: "/imgs/works/bateriasgalileu.png",
             alt: "Baterias Galileu",
           },
           technology: ["next", "styled componentes", "react"],
@@ -438,7 +438,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/jeansclub.png",
+            src: "/imgs/works/jeansclub.png",
             alt: "Jeans Club",
           },
           technology: ["React", "Jest", "scss", "vtex io"],
@@ -451,7 +451,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/libercomunicacaovisual.png",
+            src: "/imgs/works/libercomunicacaovisual.png",
             alt: "Liber Comunicação Visual",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -463,7 +463,7 @@ const content: Content = {
             title: "bubowl",
           },
           img: {
-            src: "./images/works/bubowl.png",
+            src: "/imgs/works/bubowl.png",
             alt: "bubowl",
           },
           technology: ["Vanilla JS", "Gulp", "scss"],
@@ -476,7 +476,7 @@ const content: Content = {
             rel: "nofollow noreferrer noopener",
           },
           img: {
-            src: "./images/works/shopdoscabelos.png",
+            src: "/imgs/works/shopdoscabelos.png",
             alt: "Shop dos cabelos",
           },
           technology: ["React", "scss", "vtex io"],
