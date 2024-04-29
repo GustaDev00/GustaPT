@@ -8,7 +8,269 @@ type Content = {
 };
 
 const content: Content = {
-  pt: {},
+  pt: {
+    logo: "g.",
+    header: {
+      page: "página",
+      total: 4,
+    },
+    nav: {
+      links: [
+        { title: "INÍCIO", href: "#home" },
+        { title: "SERVIÇOS", href: "#services" },
+        { title: "TRABALHOS", href: "#works" },
+        { title: "CONTATO", href: "#contact" },
+      ],
+      language: [
+        { title: "EN", href: "/" },
+        { title: "PT", href: "/pt" },
+      ],
+    },
+    loading: {
+      text: "Gustavo Pontes",
+    },
+    intro: {
+      title: (
+        <>
+          SALVE! GUSTAVO <br />P<LazyImage src="/imgs/eu.png" alt="Gustavo Pontes" notLazy={true} />
+          NTES AQUI
+        </>
+      ),
+      description: (
+        <>
+          Desenvolvedor Front-End apaixonado por tornar a web mais bonita e acessível. Com foco em
+          projetos de e-commerce e sites de institucional com um SEO impecável, também crio
+          experiências digitais envolventes que unem design e funcionalidade.
+        </>
+      ),
+    },
+    services: {
+      title: (
+        <>
+          <div>
+            Meus <span />
+          </div>
+          <br />
+          <div>
+            <span />
+            Serviços
+          </div>
+        </>
+      ),
+      showDescription: {
+        first: "Seu",
+        second: "negócio",
+        third: "seu estilo",
+      },
+      description: [<>loja</>, <>site</>, <>resultado</>],
+      list: [
+        {
+          title: "E-commerce",
+          description: (
+            <>
+              Eu crio lojas online incríveis que cativam os clientes e facilitam as compras. De
+              configurar o carrinho de compras para integrar métodos de pagamento seguros, estou
+              comprometido em proporcionando uma experiência de compra perfeita para seus clientes.
+            </>
+          ),
+          icon: IconEcommerce,
+        },
+        {
+          title: "Web site",
+          description: (
+            <>
+              Como desenvolvedor web, transformo ideias em realidade digital. Minha paixão é criar
+              sites funcionais, responsivos e visualmente atraentes. Quer seja uma empresa website
+              ou uma plataforma complexa, estou pronto para enfrentar qualquer desafio.
+            </>
+          ),
+          icon: IconWebDevelopment,
+        },
+        {
+          title: "SEO",
+          description: (
+            <>
+              Como especialista em SEO, otimizo seu site para que seja facilmente encontrado pelos
+              mecanismos de busca. Da pesquisa de palavras-chave à criação de conteúdo relevante,
+              estou focado em aumentar o seu visibilidade online e atraindo tráfego mais
+              qualificado.
+            </>
+          ),
+          icon: IconSEO,
+        },
+      ],
+    },
+    works: {
+      title: "Trabalhos",
+      projects: [
+        {
+          link: {
+            href: "https://www.altogiro.com.br",
+            target: "_blank",
+            title: "Alto Giro",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/altogiro.png",
+            alt: "Alto Giro",
+          },
+          technology: ["React", "Jest", "scss", "vtex io"],
+        },
+        {
+          link: {
+            href: "https://www.ene2ese.com.br",
+            target: "_blank",
+            title: "Ene2ese",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/ene2ese.png",
+            alt: "Ene2ese",
+          },
+          technology: ["Vanilla JS", "Gulp", "scss", "vtex"],
+        },
+        {
+          link: {
+            href: "https://www.pantaspaladar.com.br",
+            target: "_blank",
+            title: "Pantas Paladar",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/pantaspaladar.png",
+            alt: "Pantas Paladar",
+          },
+          technology: ["Vanilla JS", "Gulp", "scss"],
+        },
+        {
+          link: {
+            href: "https://www.farmrio.com.br",
+            target: "_blank",
+            title: "Farm Rio",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/farmrio.png",
+            alt: "Farm Rio",
+          },
+          technology: ["react", "styled componentes", "Gulp", "scss", "vtex io"],
+        },
+        {
+          link: {
+            href: "https://www.bateriasgalileu.com.br",
+            target: "_blank",
+            title: "Baterias Galileu",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/bateriasgalileu.png",
+            alt: "Baterias Galileu",
+          },
+          technology: ["next", "styled componentes", "react"],
+        },
+        {
+          link: {
+            href: "https://www.jeansclub.com.br",
+            target: "_blank",
+            title: "Jeans Club",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/jeansclub.png",
+            alt: "Jeans Club",
+          },
+          technology: ["React", "Jest", "scss", "vtex io"],
+        },
+        {
+          link: {
+            href: "https://libercomunicacaovisual.com.br",
+            target: "_blank",
+            title: "Liber Comunicação Visual",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/libercomunicacaovisual.png",
+            alt: "Liber Comunicação Visual",
+          },
+          technology: ["Vanilla JS", "Gulp", "scss"],
+        },
+        {
+          link: {
+            href: "http://bubowl.com.br",
+            target: "_blank",
+            title: "bubowl",
+          },
+          img: {
+            src: "./images/works/bubowl.png",
+            alt: "bubowl",
+          },
+          technology: ["Vanilla JS", "Gulp", "scss"],
+        },
+        {
+          link: {
+            href: "https://www.shopdoscabelos.com.br",
+            target: "_blank",
+            title: "Shop dos cabelos",
+            rel: "nofollow noreferrer noopener",
+          },
+          img: {
+            src: "./images/works/shopdoscabelos.png",
+            alt: "Shop dos cabelos",
+          },
+          technology: ["React", "scss", "vtex io"],
+        },
+      ],
+    },
+    contact: {
+      title: (
+        <>
+          Vamos trabalhar <span>juntos?</span>
+        </>
+      ),
+      voice: "Fale comigo",
+      social: {
+        title: "REDES SOCIAIS",
+        links: [
+          {
+            href: "mailto:gustavo.4dev@gmail.com",
+            title: "gustavo.4dev@gmail.com",
+            target: "_blank",
+            rel: "nofollow noreferrer noopener",
+          },
+          {
+            href: "https://www.linkedin.com/in/gustavo-pontes-aa8219287/",
+            title: "linkedin",
+            target: "_blank",
+            rel: "nofollow noreferrer noopener",
+          },
+          {
+            href: "https://www.instagram.com/off.gu/",
+            title: "instagram",
+            target: "_blank",
+            rel: "nofollow noreferrer noopener",
+          },
+          {
+            href: "https://github.com/GustaDev00",
+            title: "github",
+            target: "_blank",
+            rel: "nofollow noreferrer noopener",
+          },
+          {
+            href: "https://www.youtube.com/channel/UCJSZjUFJoVeKgAF2zJ6HPgg",
+            title: "youtube",
+            target: "_blank",
+            rel: "nofollow noreferrer noopener",
+          },
+          {
+            href: "https://www.awwwards.com/gustavo-felipe/",
+            title: "awwwards",
+            target: "_blank",
+            rel: "nofollow noreferrer noopener",
+          },
+        ],
+      },
+    },
+  },
   en: {
     logo: "g.",
     header: {
