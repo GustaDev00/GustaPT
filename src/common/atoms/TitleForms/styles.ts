@@ -20,14 +20,19 @@ export const TitleFormsContainer = styled.h2`
     }
   }
 
+  @media (max-width: 1280px) {
+    font-size: ${({ theme }) => theme.size.size8rem};
+    line-height: 2rem;
+  }
+
   @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size4rem};
+    font-size: ${({ theme }) => theme.size.size4_8rem};
     line-height: 2rem;
 
     div {
       span {
-        width: 2rem;
-        height: 2rem;
+        width: 3rem;
+        height: 3rem;
       }
     }
   }

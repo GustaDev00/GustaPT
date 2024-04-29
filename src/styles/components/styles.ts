@@ -21,14 +21,3 @@ export const Over = styled.div`
 export const Main = styled.main`
   position: relative;
 `;
-
-export const Example = styled.div`
-  width: 100vw;
-  height: 110vh;
-  background-color: ${({ theme }) => theme.color.gunmetal};
-  border-radius: 6rem;
-
-  @media (max-width: 600px) {
-    border-radius: 3rem;
-  }
-`;

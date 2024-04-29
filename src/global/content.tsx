@@ -1,4 +1,5 @@
 import LazyImage from "@/common/atoms/LazyImage";
+import { IconEcommerce, IconSEO, IconWebDevelopment } from "@/svgs/services";
 
 type AvailableLanguages = "pt" | "en";
 
@@ -73,7 +74,7 @@ const content: Content = {
               providing a seamless shopping experience for your customers.
             </>
           ),
-          icon: "./svgs/ecommerce.svg",
+          icon: IconEcommerce,
         },
         {
           title: "Web development",
@@ -84,7 +85,7 @@ const content: Content = {
               website or a complex platform, I’m ready to tackle any challenge.
             </>
           ),
-          icon: "./svgs/web-development.svg",
+          icon: IconWebDevelopment,
         },
         {
           title: "SEO",
@@ -95,7 +96,7 @@ const content: Content = {
               online visibility and attracting more qualified traffic.
             </>
           ),
-          icon: "./svgs/seo.svg",
+          icon: IconSEO,
         },
       ],
     },
