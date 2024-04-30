@@ -7,13 +7,11 @@ const Card: FC<CardProps> = ({ link, img, technology }) => {
     <S.CardContainer {...link}>
       <S.Image {...img} />
       <S.Hover>
-        <S.Info>
-          <S.Tecnologies>
-            {technology.map((tech, index) => (
-              <S.Technology key={index}>{tech}</S.Technology>
-            ))}
-          </S.Tecnologies>
-        </S.Info>
+        <S.Tecnologies>
+          {technology.map((tech, index) => (
+            <S.Technology key={index}>{tech}</S.Technology>
+          ))}
+        </S.Tecnologies>
       </S.Hover>
     </S.CardContainer>
   );

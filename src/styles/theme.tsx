@@ -13,6 +13,7 @@ export const theme = {
     liberty: "#5C4FE3",
     white: "#FFFFFF",
     black: "#000000",
+    black05: "#00000070",
   },
   size: {
     size12rem: "12rem",
