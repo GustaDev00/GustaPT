@@ -1,10 +1,11 @@
-export const IconClose = () => (
+export const IconClose = ({ className }: { className?: string }) => (
   <svg
     id="d4b71549c2c20546caf5930c9427b354"
     xmlns="http://www.w3.org/2000/svg"
     width="109"
     height="109"
     viewBox="0 0 109 109"
+    className={className}
   >
     <rect id="Retângulo_66" data-name="Retângulo 66" width="109" height="109" fill="none" />
     <line

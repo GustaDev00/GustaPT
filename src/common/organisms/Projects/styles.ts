@@ -7,7 +7,7 @@ export const ProjectsContainer = styled.div`
   justify-content: space-between;
   gap: 2rem;
   row-gap: 4rem;
-  margin-top: 15rem;
+  margin-top: 10rem;
 
   @media (max-width: 768px) {
     margin-top: 5rem;

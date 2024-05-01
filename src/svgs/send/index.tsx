@@ -1,9 +1,10 @@
-export const IconSend = () => (
+export const IconSend = ({ className }: { className?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="114.487"
     height="87.296"
     viewBox="0 0 114.487 87.296"
+    className={className}
   >
     <g id="e70d01d02942587a378f464a680c4649" transform="translate(0 -7.6)">
       <path

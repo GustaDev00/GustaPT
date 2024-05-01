@@ -7,10 +7,10 @@ export const Section = styled.section<{ className?: string }>`
 
 export const Wrapper = styled(Section)`
   background-color: ${({ theme }) => theme.color.cultured};
-  padding: 8rem 7rem;
+  padding: 18rem 7rem 0rem;
 
   @media (max-width: 600px) {
-    padding: 4rem 5rem;
+    padding: 8rem 5rem 0;
   }
 `;
 

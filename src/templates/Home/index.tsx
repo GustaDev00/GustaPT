@@ -1,10 +1,10 @@
 import Loading from "@/common/molecules/Loading";
 import Header from "@/common/organisms/Header";
 import { Over, Section } from "@/styles/components/styles";
-import ContactTemplate from "@/templates/Contact";
-import IntroTemplate from "@/templates/Intro";
-import ServicesTemplate from "@/templates/Services";
-import WorksTemplate from "@/templates/Works";
+import ContactTemplate from "./Contact";
+import IntroTemplate from "./Intro";
+import ServicesTemplate from "./Services";
+import WorksTemplate from "./Works";
 import useAnimation from "./animation";
 
 const HomeTemplate = () => {

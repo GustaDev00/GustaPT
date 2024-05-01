@@ -1,5 +1,5 @@
 export interface TitlesProps {
-  type: "logo" | "forms" | "stripe";
+  type?: "logo" | "forms" | "stripe";
   children?: React.ReactNode;
   description?: React.ReactNode;
   className?: string;

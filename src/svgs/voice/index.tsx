@@ -1,9 +1,10 @@
-export const IconVoice = () => (
+export const IconVoice = ({ className }: { className?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="56.004"
     height="76.006"
     viewBox="0 0 56.004 76.006"
+    className={className}
   >
     <path
       id="Icon_material-outline-keyboard-voice"

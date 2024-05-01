@@ -4,6 +4,7 @@ import { TitlesProps } from "./props";
 import TitleLogo from "./components/Logo";
 import TitleForms from "./components/Forms";
 import LogoStripe from "./components/Stripe";
+import Title from "./components/Title";
 
 const Titles: FC<TitlesProps> = ({ type, ...props }) => {
   switch (type) {
@@ -13,6 +14,8 @@ const Titles: FC<TitlesProps> = ({ type, ...props }) => {
       return <TitleForms {...props} />;
     case "stripe":
       return <LogoStripe {...props} />;
+    default:
+      return <Title {...props} />;
   }
 };
 

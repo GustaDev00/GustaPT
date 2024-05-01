@@ -495,7 +495,7 @@ const content: Content = {
         links: [
           {
             href: "mailto:gustavo.4dev@gmail.com",
-            title: "gustavo.4dev@gmail.com",
+            title: "E-MAIL",
             target: "_blank",
             rel: "nofollow noreferrer noopener",
           },

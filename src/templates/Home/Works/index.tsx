@@ -10,7 +10,6 @@ const WorksTemplate: FC<{ className?: string }> = ({ className }) => {
   return (
     <Wrapper className={className}>
       <Titles type="stripe">{works.title}</Titles>
-
       <Projects projects={works.projects} />
     </Wrapper>
   );
