@@ -8,7 +8,14 @@ const Scroll: FC<ScrollProps> = ({ scrollRef }) => {
 
   return (
     <S.ScrollContainer>
-      {page} <S.Count ref={scrollRef}>1</S.Count>/{total}
+      {page}{" "}
+      <S.Count ref={scrollRef}>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+      </S.Count>
+      /{total}
     </S.ScrollContainer>
   );
 };

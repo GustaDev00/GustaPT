@@ -3,8 +3,6 @@ import * as S from "./styles";
 import { ProjectsProps } from "./props";
 
 const Projects: FC<ProjectsProps> = ({ projects }) => {
-  console.log(projects, "projects");
-
   return (
     <S.ProjectsContainer>
       {projects.map((project, index) => (

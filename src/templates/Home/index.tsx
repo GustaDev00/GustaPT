@@ -14,11 +14,11 @@ const HomeTemplate = () => {
     <Section>
       <Loading />
       <Header headerRef={headerRef} scrollRef={scrollRef} navRef={navRef}>
-        <IntroTemplate />
+        <IntroTemplate className="section" />
         <Over ref={sectionBlueRef}>
           <ServicesTemplate className="section" />
           <WorksTemplate className="section" />
-          <ContactTemplate />
+          <ContactTemplate className="section" />
         </Over>
       </Header>
     </Section>

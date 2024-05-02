@@ -10,50 +10,14 @@ const useAnimation = () => {
 
   useEffect(() => {
     if (scrollRef && navRef && sectionBlueRef) {
-      const sections = gsap.utils.toArray<HTMLElement>(".section");
-
-      sections.forEach((section, index) => {
-        console.log(section, index, "section");
-        gsap.to(scrollRef.current, {
-          scrollTrigger: {
-            trigger: section,
-            start: "top top+=100px",
-            end: "bottom bottom",
-            onEnter: () => {
-              gsap.to(scrollRef.current, {
-                y: -20,
-                opacity: 0,
-                onComplete: () => {
-                  if (scrollRef.current) {
-                    scrollRef.current.innerText = String(index + 2);
-                    gsap.fromTo(scrollRef.current, { y: 10, opacity: 0 }, { y: 0, opacity: 1 });
-                  }
-                },
-              });
-            },
-            onEnterBack: () => {
-              gsap.to(scrollRef.current, {
-                y: 20,
-                opacity: 0,
-                onComplete: () => {
-                  if (scrollRef.current) {
-                    scrollRef.current.innerText = String(index + 1);
-                    gsap.fromTo(scrollRef.current, { y: -20, opacity: 0 }, { y: 0, opacity: 1 });
-                  }
-                },
-              });
-            },
-          },
-        });
-      });
-
       gsap.to(navRef.current, {
         color: theme.color.cultured,
         borderColor: theme.color.cultured,
+        duration: 0.5,
         scrollTrigger: {
           trigger: sectionBlueRef.current,
           start: "top bottom-=90px",
-          end: "bottom bottom-=20px",
+          end: "center+=150px bottom-=20px",
           markers: false,
           toggleActions: "play reverse play reset",
         },
@@ -62,10 +26,11 @@ const useAnimation = () => {
       gsap.to(headerRef.current, {
         color: theme.color.cultured,
         borderColor: theme.color.cultured,
+        duration: 0.5,
         scrollTrigger: {
           trigger: sectionBlueRef.current,
           start: "top top+=30px",
-          end: "bottom top+=50px",
+          end: "center+=150px top+=50px",
           markers: false,
           toggleActions: "play reverse play reset",
         },

@@ -3,6 +3,7 @@ import "styled-components";
 export const theme = {
   color: {
     cultured: "#FAF9F6",
+    cultured01: "rgba(250, 249, 246, 0.1)",
     gunmetal: "#2D2F39",
     darkBlueGray: "#616B8E",
     davysGrey: "#555863",
