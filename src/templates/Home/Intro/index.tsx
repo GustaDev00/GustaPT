@@ -5,7 +5,7 @@ import { FC } from "react";
 
 const IntroTemplate: FC<{ className: string }> = ({ className }) => {
   return (
-    <Float className={className}>
+    <Float className={className} id="intro">
       <Titles type="logo" />
       <Background />
     </Float>

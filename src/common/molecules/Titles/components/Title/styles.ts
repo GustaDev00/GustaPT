@@ -16,9 +16,9 @@ export const Title = styled.h2`
     margin-left: 10rem;
   }
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size4rem};
-    line-height: ${({ theme }) => theme.size.size4rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size6rem};
+    line-height: ${({ theme }) => theme.size.size6rem};
     padding: 0rem 5rem;
 
     span {

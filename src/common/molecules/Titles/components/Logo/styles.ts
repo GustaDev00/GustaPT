@@ -11,6 +11,7 @@ export const TitleLogoContainer = styled.div`
 export const Article = styled.article`
   padding-bottom: 30rem;
   width: 61%;
+  z-index: 2;
 
   @media (max-width: 1280px) {
     padding-bottom: 20rem;
@@ -48,10 +49,10 @@ export const Title = styled.h1`
   }
 
   @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size4rem};
+    font-size: ${({ theme }) => theme.size.size6rem};
 
     img {
-      width: ${({ theme }) => theme.size.size3rem};
+      width: 5rem;
     }
   }
 `;
@@ -67,6 +68,6 @@ export const Description = styled.p`
   }
 
   @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size1_6rem};
+    font-size: ${({ theme }) => theme.size.size2rem};
   }
 `;

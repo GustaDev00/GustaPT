@@ -7,10 +7,6 @@ export const ScrollContainer = styled.div`
   position: relative;
   height: 4rem;
   overflow: hidden;
-
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size2rem};
-  }
 `;
 
 export const Count = styled.div`

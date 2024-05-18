@@ -12,8 +12,8 @@ export const Title = styled.h2`
     font-size: ${({ theme }) => theme.size.size6rem};
   }
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size3rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size4rem};
   }
 `;
 
@@ -34,8 +34,8 @@ export const Item = styled.li`
     margin: 1.5rem 0;
   }
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size1_8rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size2_5rem};
     margin: 1rem 0;
   }
 `;

@@ -20,13 +20,13 @@ export const Title = styled.h2`
     z-index: -1;
   }
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size4_8rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size6rem};
     width: 100%;
 
     &::after {
       height: 1rem;
-      top: 50%;
+      top: 55%;
     }
   }
 `;

@@ -9,7 +9,7 @@ export const Wrapper = styled(Section)`
   background-color: ${({ theme }) => theme.color.cultured};
   padding: 18rem 7rem 0rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     padding: 8rem 5rem 0;
   }
 `;

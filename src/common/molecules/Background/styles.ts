@@ -6,10 +6,11 @@ export const BackgroundContainer = styled.div`
   position: absolute;
   top: 0;
   margin: 7rem 0 0 7rem;
+  z-index: 1;
 
   @media (max-width: 600px) {
     gap: 2rem;
-    margin: 7rem 0 0 -4rem;
+    margin: 7rem 0 0 -2rem;
   }
 `;
 
@@ -24,11 +25,6 @@ export const Circle = styled.div`
     width: 20rem;
     height: 20rem;
   }
-
-  @media (max-width: 600px) {
-    width: 15rem;
-    height: 15rem;
-  }
 `;
 
 export const Rectangle = styled(Circle)`
@@ -36,10 +32,6 @@ export const Rectangle = styled(Circle)`
 
   @media (max-width: 1280px) {
     height: 40rem;
-  }
-
-  @media (max-width: 600px) {
-    height: 30rem;
   }
 `;
 

@@ -5,10 +5,6 @@ import styled from "styled-components";
 
 export const Section = styled(Wrapper)`
   padding: 18rem 0rem 12rem;
-
-  @media (max-width: 600px) {
-    padding: 8rem 0rem 12rem;
-  }
 `;
 
 export const Flex = styled.div`
@@ -19,12 +15,8 @@ export const Flex = styled.div`
   @media (max-width: 1024px) {
     flex-direction: column;
     align-items: flex-start;
-    gap: 2rem;
+    gap: 8rem;
     margin-top: 10rem;
-  }
-
-  @media (max-width: 600px) {
-    margin-top: 5rem;
   }
 `;
 

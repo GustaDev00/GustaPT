@@ -8,7 +8,7 @@ export const Services = styled(Section)`
   border-radius: 6rem;
   padding: 18rem 0 0 7rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     border-radius: 3rem;
     padding: 8rem 0 0 5rem;
   }
@@ -19,7 +19,7 @@ export const Article = styled.article`
   align-items: flex-end;
   gap: 2rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     flex-direction: column;
     align-items: flex-start;
     gap: 3rem;
@@ -41,12 +41,12 @@ export const Title = styled(Titles)`
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     div:first-child {
       span {
         margin-left: 1rem;
-        width: 15rem;
-        height: 3rem;
+        width: 18rem;
+        height: 4rem;
       }
     }
 
@@ -70,7 +70,7 @@ export const Description = styled.div`
     margin-bottom: 0.5rem;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     font-size: ${({ theme }) => theme.size.size2_5rem};
   }
 `;
@@ -84,7 +84,7 @@ export const LineText = styled.div`
     height: 4rem;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     height: 2.4rem;
   }
 `;
@@ -115,7 +115,7 @@ export const TextTertiary = styled.p``;
 export const Service = styled.div`
   padding: 20rem 0 0 0;
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     padding: 0;
   }
 `;

@@ -5,8 +5,9 @@ import * as S from "./styles";
 
 const ServicesTemplate: FC<{ className: string }> = ({ className }) => {
   const { services } = useLanguageContext()?.content;
+
   return (
-    <S.Services className={className}>
+    <S.Services className={className} id="services">
       <S.Article>
         <S.Title type="forms">{services.title}</S.Title>
         <S.Description>

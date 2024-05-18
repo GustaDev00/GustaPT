@@ -7,7 +7,7 @@ const ContactTemplate: FC<{ className?: string }> = ({ className }) => {
   const { contact } = useLanguageContext()?.content;
 
   return (
-    <S.Section className={className}>
+    <S.Section className={className} id="contact">
       <Titles>{contact.title}</Titles>
 
       <S.Flex>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ListServicesContainer = styled.div`
   padding: 10rem 0;
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     padding: 5rem 0;
   }
 `;
@@ -25,8 +25,8 @@ export const TitleService = styled.h2`
     font-size: ${({ theme }) => theme.size.size4_8rem};
   }
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size2rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size2_5rem};
   }
 `;
 
@@ -38,7 +38,7 @@ export const Line = styled.div`
   border-radius: 1rem 0 0 1rem;
   margin-top: 2rem;
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     height: 0.5rem;
     margin-top: 0.5rem;
   }
@@ -70,11 +70,12 @@ export const ContentService = styled.article`
     }
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     flex-direction: column;
     margin-top: 3rem;
     padding: 0 2rem 0 0;
     gap: 3rem;
+
     svg {
       width: 25rem;
     }
@@ -96,8 +97,8 @@ export const DescriptionService = styled.p`
     width: 60%;
   }
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size1_8rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size2rem};
     width: 100%;
   }
 `;

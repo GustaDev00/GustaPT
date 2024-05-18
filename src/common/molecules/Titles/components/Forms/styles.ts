@@ -25,14 +25,14 @@ export const TitleFormsContainer = styled.h2`
     line-height: 2rem;
   }
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size4_8rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size6rem};
     line-height: 2rem;
 
     div {
       span {
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
       }
     }
   }

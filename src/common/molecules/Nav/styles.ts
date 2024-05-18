@@ -18,7 +18,7 @@ export const NavContainer = styled.div<{ ref?: RefObject<HTMLDivElement> | null 
   backdrop-filter: blur(1rem);
   background-color: rgba(250, 249, 246, 0.5);
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     gap: 1rem;
     padding: 2rem 2rem;
   }
@@ -28,7 +28,7 @@ export const Logo = styled(_Logo)`
   font-size: ${({ theme }) => theme.size.size2_5rem};
   color: inherit;
 
-  @media (max-width: 600px) {
+  @media (max-width: 500px) {
     display: none;
   }
 `;
@@ -40,8 +40,8 @@ export const List = styled.ul`
   color: inherit;
   gap: 2rem;
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size1_4rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size2rem};
   }
 `;
 
@@ -53,8 +53,8 @@ export const ListLg = styled.ul`
   font-size: ${({ theme }) => theme.size.size2_5rem};
   color: inherit;
 
-  @media (max-width: 600px) {
-    font-size: ${({ theme }) => theme.size.size1_4rem};
+  @media (max-width: 500px) {
+    font-size: ${({ theme }) => theme.size.size2rem};
   }
 `;
 
