@@ -10,7 +10,7 @@ export const Wrapper = styled(Section)`
   padding: 18rem 7rem 0rem;
 
   @media (max-width: 500px) {
-    padding: 8rem 5rem 10rem;
+    padding: 8rem 5rem 0rem;
   }
 `;
 

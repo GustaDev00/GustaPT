@@ -8,12 +8,12 @@ import WorksTemplate from "./Works";
 import useAnimation from "./animation";
 
 const HomeTemplate = () => {
-  const { navRef, sectionBlueRef, headerRef, scrollRef } = useAnimation();
+  const { navRef, sectionBlueRef, headerRef } = useAnimation();
 
   return (
     <Section>
       <Loading />
-      <Header headerRef={headerRef} scrollRef={scrollRef} navRef={navRef}>
+      <Header headerRef={headerRef} navRef={navRef}>
         <IntroTemplate className="section" />
         <Over ref={sectionBlueRef}>
           <ServicesTemplate className="section" />

@@ -3,13 +3,12 @@ import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
 const useAnimation = () => {
-  const scrollRef = useRef<HTMLDivElement>(null);
   const navRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLDivElement>(null);
   const sectionBlueRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (scrollRef && navRef && sectionBlueRef) {
+    if (navRef && sectionBlueRef) {
       gsap.to(navRef.current, {
         color: theme.color.cultured,
         borderColor: theme.color.cultured,
@@ -36,10 +35,9 @@ const useAnimation = () => {
         },
       });
     }
-  }, [scrollRef, navRef, sectionBlueRef]);
+  }, [navRef, sectionBlueRef]);
 
   return {
-    scrollRef,
     navRef,
     sectionBlueRef,
     headerRef,

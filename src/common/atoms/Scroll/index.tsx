@@ -1,15 +1,15 @@
-import { FC } from "react";
 import * as S from "./styles";
+import useAnimation from "./animation";
 import { useLanguageContext } from "@/context/language";
-import { ScrollProps } from "./props";
 
-const Scroll: FC<ScrollProps> = ({ scrollRef }) => {
+const Scroll = () => {
   const { page, total } = useLanguageContext()?.content?.header;
+  const { countRef } = useAnimation();
 
   return (
     <S.ScrollContainer>
       {page}{" "}
-      <S.Count ref={scrollRef}>
+      <S.Count ref={countRef}>
         <span>1</span>
         <span>2</span>
         <span>3</span>
