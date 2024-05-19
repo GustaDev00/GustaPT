@@ -15,9 +15,9 @@ const useAnimation = () => {
         borderColor: theme.color.cultured,
         duration: 0.5,
         scrollTrigger: {
-          trigger: sectionBlueRef.current,
+          trigger: "#services",
           start: "top bottom-=90px",
-          end: "center+=150px bottom-=20px",
+          end: "bottom-=50px bottom-=20px",
           markers: false,
           toggleActions: "play reverse play reset",
         },
@@ -28,9 +28,9 @@ const useAnimation = () => {
         borderColor: theme.color.cultured,
         duration: 0.5,
         scrollTrigger: {
-          trigger: sectionBlueRef.current,
+          trigger: "#services",
           start: "top top+=30px",
-          end: "center+=150px top+=50px",
+          end: "bottom-=50px top+=50px",
           markers: false,
           toggleActions: "play reverse play reset",
         },

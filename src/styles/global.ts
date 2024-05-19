@@ -64,7 +64,7 @@ const GlobalStyles = createGlobalStyle`
 
     @media (max-width: 500px), 
           (max-height: 500px) {
-      font-size: calc(70vw / 414 * 10);
+      font-size: calc(65vw / 414 * 10);
     }
 
     @media (max-height: 500px) and (orientation: landscape) {

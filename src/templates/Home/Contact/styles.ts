@@ -1,10 +1,16 @@
 import _Share from "@/common/molecules/Share";
 import TalkToMe from "@/common/molecules/TalkToMe";
-import { Wrapper } from "@/styles/components/styles";
 import styled from "styled-components";
 
-export const Section = styled(Wrapper)`
+export const Section = styled.section`
+  height: 100%;
+  position: relative;
+  background-color: ${({ theme }) => theme.color.cultured};
   padding: 18rem 0rem 12rem;
+
+  @media (max-width: 500px) {
+    padding: 35rem 0rem 12rem;
+  }
 `;
 
 export const Flex = styled.div`

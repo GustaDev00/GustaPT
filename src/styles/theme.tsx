@@ -13,6 +13,7 @@ export const theme = {
     majorelleBlue: "#5C4FE3",
     liberty: "#5C4FE3",
     white: "#FFFFFF",
+    white05: "rgba(250, 249, 246, 0.5)",
     black: "#000000",
     black05: "#00000070",
   },

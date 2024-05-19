@@ -16,7 +16,7 @@ export const NavContainer = styled.div<{ ref?: RefObject<HTMLDivElement> | null 
   color: ${({ theme }) => theme.color.violetBlue};
   transition: color 0.4s ease, border-color 0.4s ease;
   backdrop-filter: blur(1rem);
-  background-color: rgba(250, 249, 246, 0.5);
+  background-color: ${({ theme }) => theme.color.white05};
 
   @media (max-width: 500px) {
     gap: 1rem;
