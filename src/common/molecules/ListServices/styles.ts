@@ -44,6 +44,8 @@ export const Line = styled.div`
   }
 `;
 
+export const ContentService1 = styled.div``;
+
 export const ContentService = styled.article`
   display: flex;
   flex-direction: row-reverse;

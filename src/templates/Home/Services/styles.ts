@@ -7,6 +7,7 @@ export const Services = styled(Section)`
   background-color: ${({ theme }) => theme.color.gunmetal};
   border-radius: 6rem;
   padding: 18rem 0 0 7rem;
+  overflow: hidden;
 
   @media (max-width: 500px) {
     border-radius: 3rem;
