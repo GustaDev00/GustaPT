@@ -9,10 +9,11 @@ const ListServices: FC<ListServicesProps> = ({ title, description, icon }) => {
         <S.TitleService>{title}</S.TitleService>
         <S.Line />
       </S.Article>
-      <S.ContentService1>
+      <S.ContentService>
         <S.DescriptionService>{description}</S.DescriptionService>
-        {icon()}
-      </S.ContentService1>
+      </S.ContentService>
+
+      <S.ImageService src={icon} alt={title} />
     </S.ListServicesContainer>
   );
 };

@@ -44,7 +44,7 @@ export const Line = styled.div`
   }
 `;
 
-export const ContentService1 = styled.div``;
+export const TextService = styled.div``;
 
 export const ContentService = styled.article`
   display: flex;
@@ -55,21 +55,12 @@ export const ContentService = styled.article`
   margin-top: 8rem;
   padding: 0 4rem 0 0;
 
-  svg {
-    width: 40rem;
-    height: fit-content;
-  }
-
   @media (max-width: 1280px) {
     gap: 10rem;
   }
 
   @media (max-width: 1024px) {
     gap: 6rem;
-
-    svg {
-      width: 30rem;
-    }
   }
 
   @media (max-width: 500px) {
@@ -77,10 +68,6 @@ export const ContentService = styled.article`
     margin-top: 3rem;
     padding: 0 2rem 0 0;
     gap: 3rem;
-
-    svg {
-      width: 25rem;
-    }
   }
 `;
 
@@ -101,6 +88,11 @@ export const DescriptionService = styled.p`
 
   @media (max-width: 500px) {
     font-size: ${({ theme }) => theme.size.size2rem};
-    width: 100%;
+    width: 99%;
   }
+`;
+
+export const ImageService = styled.img`
+  margin-top: 4rem;
+  height: 10rem;
 `;
