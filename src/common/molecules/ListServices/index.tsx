@@ -11,8 +11,9 @@ const ListServices: FC<ListServicesProps> = ({ title, description, icon }) => {
       </S.Article>
       <S.ContentService>
         <S.DescriptionService>{description}</S.DescriptionService>
-        {icon()}
       </S.ContentService>
+
+      <S.ImageService src={icon} alt={title} />
     </S.ListServicesContainer>
   );
 };

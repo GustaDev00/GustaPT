@@ -73,7 +73,7 @@ const content: Content = {
               comprometido em proporcionando uma experiência de compra perfeita para seus clientes.
             </>
           ),
-          icon: IconEcommerce,
+          icon: "/imgs/services/ecommerce.png",
         },
         {
           title: "Web site",
@@ -84,7 +84,7 @@ const content: Content = {
               ou uma plataforma complexa, estou pronto para enfrentar qualquer desafio.
             </>
           ),
-          icon: IconWebDevelopment,
+          icon: "./imgs/services/development.png",
         },
         {
           title: "SEO",
@@ -96,7 +96,7 @@ const content: Content = {
               qualificado.
             </>
           ),
-          icon: IconSEO,
+          icon: "./imgs/services/seo.png",
         },
       ],
     },
@@ -336,7 +336,7 @@ const content: Content = {
               providing a seamless shopping experience for your customers.
             </>
           ),
-          icon: IconEcommerce,
+          icon: "/imgs/services/ecommerce.png",
         },
         {
           title: "Web development",
@@ -347,7 +347,7 @@ const content: Content = {
               website or a complex platform, I’m ready to tackle any challenge.
             </>
           ),
-          icon: IconWebDevelopment,
+          icon: "/imgs/services/development.png",
         },
         {
           title: "SEO",
@@ -358,7 +358,7 @@ const content: Content = {
               online visibility and attracting more qualified traffic.
             </>
           ),
-          icon: IconSEO,
+          icon: "/imgs/services/seo.png",
         },
       ],
     },

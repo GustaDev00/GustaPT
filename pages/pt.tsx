@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(() => {
     setType("pt");
-  }, []);
+  }, [setType]);
 
   return (
     <>
